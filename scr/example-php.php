@@ -7,12 +7,11 @@ include ('EncDecPHP.class.php');
 // encrypt
 // originalValue => this could be any value
 $originalValue = array(
-	'client'=>"francefood",
-	'host'=>"93.113.207.21",
-	'port'=>"123",
-	'user'=>"iinventaire_francefood",
-	'password'=>"anexys1,"
-); 
+	'subject'=>"hello",
+	'who'=>"world",
+	'number'=>123,
+	'array'=> array('Hey','Hi',15.3)
+);
 $originalValue = json_encode($originalValue);
 $password = "123456";
 $encrypted = EncDecPHP::encrypt($originalValue, $password);

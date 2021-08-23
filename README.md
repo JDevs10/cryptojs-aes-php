@@ -11,7 +11,7 @@ It uses default aes-256-cbc implementation with random salts and random initiali
 
 
 ## How to use
-###### PHP | See [class/example-php.php](https://github.com/JDevs10/cryptojs-aes-php/blob/master/class/example-php.php)
+###### PHP | See [class/example-php.php](https://github.com/JDevs10/cryptojs-aes-php/blob/master/scr/example-php.php)
 You need the file `src/EncDecPHP.EncDecPHP.php`
 ```php
 <?php
@@ -31,7 +31,7 @@ $decrypted = EncDecPHP::decrypt($encrypted, $password);
 echo "Encrypted: " . $encrypted . "\n";
 echo "Decrypted: " . print_r($decrypted, true) . "\n";
 ```
-###### Javascript | See [class/example-js.html](https://github.com/JDevs10/cryptojs-aes-php/blob/master/dist/example-js.html)
+###### Javascript | See [class/example-js.html](https://github.com/JDevs10/cryptojs-aes-php/blob/master/scr/example-js.html)
 You need the file `dist/cryptojs-aes.min.js` and `dist/cryptojs-aes-format.js`
 ```html
 <script src="dist/cryptojs-aes.min.js"></script>
